@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >register</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<header>
+		<h1>  Register</h1>
+	</header>
+	<!--use GET,not POST -->
+	<div>
+  <form method="GET">
+	<span><font size="5"> first name </span></font>  <input type="text" name="firstname" required=""><br>
+	 <font size="5">Surname</font><input type="text" name="lastname" required=""><br>
+	 <font size="5"> E-mail</font> <input type="email" name="email" required=""><br>
+	 <font size="5">Password</font> <input type="password" name="password" min="9" required=""><br>
+	 <font size="5">birthday</font> <input type="date" name="birthday"><br>
+	 <font size="5">Gender:</font> <br>
+	 <input type="radio" name="Gender" value="Male">Male<br>
+	 <input type="radio" name="Gender" value="Female">Female<br>
+	 <input type="radio" name="Gender" value="Other">Other<br>
+     <p class="checkbox"><font size="5"></p>Favorite team<select name=" Favorite team">
+	 <option value="Liverpool" value="Liverpool">Liverpool</option>
+	 <option value="manchester united" value="manchester united">manchester united</option>
+	 <option value="tottenham" value="tottenham">tottenham</option>
+	 <option value="hapoel tel aviv" value="hapoel tel aviv">hapoel tel aviv</option>
+	 <option value="bayern munich" value="bayern munich">bayern munich</option>
+	 <option value="hapoel kfar saba" value="hapoel kfar saba">hapoel kfar saba</option> <br>
+	 </select>
+	 <br>
+	 <font size="5">Where are you from<input type="text" name="place"></font><br>
+	 <input class="button" type="submit" value="register">
+	 <input class="button" type="reset" value="reset"><br>
+</form>
+
+<button class="goback btn btn-dark btn-sm"><a href="index.html">go back</a></button>
+</div>
+</body><br>
+<hr>
+
+</html>

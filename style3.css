@@ -1,0 +1,38 @@
+html,
+body {
+	background-color: #F0FF89;
+	 
+
+
+
+}
+h1 {
+	text-align: center;
+	color: rgba(80, 98, 98, 0.7);
+
+}
+
+form {
+	text-align: center;
+}
+
+
+.button {
+	background-color: red;
+
+}
+
+
+
+}
+.goback {
+	font-size: 100%;
+	color: #F0FF89;
+	text-decoration: underline;
+	display: flex;
+	align-content: flex-end;
+	align-items: flex-end;
+	justify-content: flex-end;
+	background-color: red;
+
+}	

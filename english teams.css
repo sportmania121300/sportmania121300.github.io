@@ -1,0 +1,24 @@
+.circle {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 4px;
+	border-color: black;
+
+}
+.circle-with-text {
+	color: black;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 175%;
+  text-decoration-line: underline;
+  text-shadow: brown;
+  
+
+
+}
